@@ -1,0 +1,89 @@
+zerotwoPRINT(1 + 2):ZTzerotwoPRINT(5 + 10):ZTzerotwoPRINT(100 + 200):ZT
+zerotwoPRINT(3 + 3 + 3):ZT
+
+// Comentario de una sola línea
+zerotwoPRINT(10 - 5):ZT
+zerotwoPRINT(100 - 50):ZT
+zerotwoPRINT(200 - 100):ZT
+zerotwoPRINT(10 - 5 - 2):ZT
+
+zerotwoPRINT(2 * 3):ZT
+zerotwoPRINT(5 * 5):ZT
+zerotwoPRINT(10 * 10):ZT
+zerotwoPRINT(2 * 3 * 4):ZT
+
+zerotwoPRINT(10 / 2):ZT
+zerotwoPRINT(100 / 5):ZT
+zerotwoPRINT(200 / 10):ZT
+zerotwoPRINT(100 / 5 / 2):ZT
+
+zerotwoPRINT(10 / (2 + 3)):ZT
+zerotwoPRINT(2 * (3 + 5) - 10):ZT // comentario
+zerotwoPRINT((10 + 2) / 3 * 4):ZT
+
+zerotwoPRINT(500):ZT
+zerotwoPRINT((100+50)/(50-25*(2+(1+1)))):ZT
+
+x = 20:ZT
+y = 20:ZT
+zerotwoPRINT(x):ZT
+zerotwoPRINT(x + y):ZT
+zerotwoPRINT(x - y):ZT
+zerotwoPRINT(x * y):ZT
+zerotwoPRINT(x / y):ZT
+
+w = true:ZT
+z = false:ZT
+zerotwoPRINT(w):ZT
+zerotwoPRINT(z):ZT
+zerotwoPRINT(w && z):ZT
+zerotwoPRINT(w || z):ZT
+zerotwoPRINT(!w):ZT
+zerotwoPRINT(!z):ZT
+
+v = "string":ZT
+
+zerotwoPRINT(v):ZT
+zerotwoPRINT("otro string"):ZT
+zerotwoPRINT():ZT
+
+a = true:ZT
+b = false:ZT
+c = 5:ZT
+
+zeroIF (a && b) {
+    zerotwoPRINT("a && b"):ZT
+} twoELSE {
+    zerotwoPRINT("zero two best waifu"):ZT
+}
+zeroIF (a || b) {
+    zerotwoPRINT("necesitamos pasar :,c"):ZT
+}
+zeroIF (c < 3) {
+    zerotwoPRINT(c):ZT
+}
+zeroIF (c <= 7) {
+    zerotwoPRINT(c+3):ZT
+}
+zeroIF (c == 5) {
+    zerotwoPRINT(c+1):ZT
+}
+
+// Ejemplo de programa
+floatVar = 5.5:ZT
+intVar = 10:ZT
+strVar = "Hola, ":ZT
+boolVar = true:ZT
+
+resultadoSuma = floatVar + intVar:ZT  // Operación con float y int
+resultadoResta = intVar - 2:ZT
+resultadoConcat = strVar + "mundo!":ZT
+resultadoMultiplicacion = floatVar * 2.0:ZT
+resultadoDivision = intVar / floatVar:ZT
+
+zerotwoPRINT(resultadoSuma):ZT           // Imprime 15.5
+zerotwoPRINT(resultadoResta):ZT          // Imprime 8
+zerotwoPRINT(resultadoConcat):ZT         // Imprime "Hola, mundo!"
+zerotwoPRINT(resultadoMultiplicacion):ZT // Imprime 11.0
+zerotwoPRINT(resultadoDivision):ZT       // Imprime 1.81818181818
+zerotwoPRINT(boolVar):ZT                 // Imprime true
