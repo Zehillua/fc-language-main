@@ -9,3 +9,9 @@ pwsh:
 
 bash:
     ./App < input.ps
+
+
+Equipo:
+Sofía Nuñez
+Matías Portilla
+Ignacio Rebolledo Orellana
